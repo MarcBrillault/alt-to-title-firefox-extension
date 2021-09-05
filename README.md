@@ -1,0 +1,1 @@
+# alt-to-title-firefox-extension
