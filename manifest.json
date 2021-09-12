@@ -1,0 +1,20 @@
+{
+
+    "manifest_version": 2,
+    "name": "Alt to title",
+    "version": "1.0",
+  
+    "description": "Copies images alt attributes to their title, so everyone can see the alt text while hovering the image",
+  
+    "icons": {
+      "48": "alt-to-title.png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["script.js"]
+      }
+    ]
+  
+  }
